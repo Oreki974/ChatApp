@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Headless">
+      <UniqueIdentifier>{42FABD4B-AE10-BCE1-F787-470363DD8C69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Headless\Walnut">
+      <UniqueIdentifier>{6CF7F33B-581C-43BC-8167-284C6DEB41DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{56EB95D1-428D-C0A7-2B48-D4FB178947F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Walnut">
+      <UniqueIdentifier>{006A7758-6C2A-F38E-3565-3C0CA1E4376B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Walnut\Core">
+      <UniqueIdentifier>{58CE2281-44B2-E3D6-AD12-DE299915CE58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Walnut\Serialization">
+      <UniqueIdentifier>{8D42A76D-F94F-D553-8236-D13EEE42A10A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Walnut\Utils">
+      <UniqueIdentifier>{60EBC4A6-CC4C-A2B4-55BA-E866C11AD973}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Platform\Headless\Walnut\ApplicationHeadless.h">
+      <Filter>Platform\Headless\Walnut</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Application.h">
+      <Filter>Source\Walnut</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Core\Assert.h">
+      <Filter>Source\Walnut\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Core\Buffer.h">
+      <Filter>Source\Walnut\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Core\Log.h">
+      <Filter>Source\Walnut\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Core\LogCustomFormatters.h">
+      <Filter>Source\Walnut\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\EntryPoint.h">
+      <Filter>Source\Walnut</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Layer.h">
+      <Filter>Source\Walnut</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Random.h">
+      <Filter>Source\Walnut</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Serialization\BufferStream.h">
+      <Filter>Source\Walnut\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Serialization\FileStream.h">
+      <Filter>Source\Walnut\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Serialization\StreamReader.h">
+      <Filter>Source\Walnut\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Serialization\StreamWriter.h">
+      <Filter>Source\Walnut\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Timer.h">
+      <Filter>Source\Walnut</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Walnut\Utils\StringUtils.h">
+      <Filter>Source\Walnut\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Platform\Headless\Walnut\ApplicationHeadless.cpp">
+      <Filter>Platform\Headless\Walnut</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Walnut\Core\Log.cpp">
+      <Filter>Source\Walnut\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Walnut\Random.cpp">
+      <Filter>Source\Walnut</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Walnut\Serialization\BufferStream.cpp">
+      <Filter>Source\Walnut\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Walnut\Serialization\FileStream.cpp">
+      <Filter>Source\Walnut\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Walnut\Serialization\StreamReader.cpp">
+      <Filter>Source\Walnut\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Walnut\Serialization\StreamWriter.cpp">
+      <Filter>Source\Walnut\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Walnut\Utils\StringUtils.cpp">
+      <Filter>Source\Walnut\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

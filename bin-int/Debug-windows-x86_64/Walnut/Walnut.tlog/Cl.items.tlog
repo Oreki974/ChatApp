@@ -1,0 +1,14 @@
+E:\source\repos\ChatApp\Walnut\Walnut\Platform\GUI\Walnut\ApplicationGUI.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\ApplicationGUI.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Platform\GUI\Walnut\ImGui\ImGuiBuild.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\ImGuiBuild.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Platform\GUI\Walnut\ImGui\ImGuiTheme.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\ImGuiTheme.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Platform\GUI\Walnut\Image.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\Image.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Platform\GUI\Walnut\Input\Input.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\Input.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Platform\GUI\Walnut\UI\Console.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\Console.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Platform\GUI\Walnut\UI\UI.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\UI.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Source\Walnut\Core\Log.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\Log.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Source\Walnut\Random.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\Random.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Source\Walnut\Serialization\BufferStream.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\BufferStream.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Source\Walnut\Serialization\FileStream.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\FileStream.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Source\Walnut\Serialization\StreamReader.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\StreamReader.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Source\Walnut\Serialization\StreamWriter.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\StreamWriter.obj
+E:\source\repos\ChatApp\Walnut\Walnut\Source\Walnut\Utils\StringUtils.cpp;E:\source\repos\ChatApp\bin-int\Debug-windows-x86_64\Walnut\StringUtils.obj

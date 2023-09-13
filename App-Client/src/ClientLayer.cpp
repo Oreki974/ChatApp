@@ -80,14 +80,14 @@ void ClientLayer::UI_ConnectionModal()
 		if (ImGui::Button("Connect"))
 		{
 			m_Color = IM_COL32(m_ColorBuffer[0] * 255.0f, m_ColorBuffer[1] * 255.0f, m_ColorBuffer[2] * 255.0f, m_ColorBuffer[3] * 255.0f);
-
+			//判断ip是否合法
 			if (Walnut::Utils::IsValidIPAddress(m_ServerIP))
 			{
 				m_Client->ConnectToServer(m_ServerIP);
 			}
 			else
 			{
-				// Try resolve domain name
+				// 尝试解析域名，当服务器地址为域名时，解析成ip:port格式
 				auto ipTokens = Walnut::Utils::SplitString(m_ServerIP, ':'); // [0] == hostname, [1] (optional) == port
 				std::string serverIP = Walnut::Utils::ResolveDomainName(ipTokens[0]);
 				if (ipTokens.size() != 2)
@@ -133,7 +133,7 @@ void ClientLayer::UI_ConnectionModal()
 		ImGui::EndPopup();
 	}
 }
-
+//用户列表
 void ClientLayer::UI_ClientList()
 {
 	ImGui::Begin("Users Online");

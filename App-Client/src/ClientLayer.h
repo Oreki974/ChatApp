@@ -13,7 +13,7 @@
 class ClientLayer : public Walnut::Layer
 {
 public:
-	virtual void OnAttach() override;
+	virtual void OnAttach() override;//≥ı ºªØ
 	virtual void OnDetach() override;
 	virtual void OnUIRender() override;
 

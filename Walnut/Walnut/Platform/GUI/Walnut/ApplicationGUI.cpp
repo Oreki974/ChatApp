@@ -60,7 +60,9 @@ static int                      g_MinImageCount = 2;
 static bool                     g_SwapChainRebuild = false;
 
 // Per-frame-in-flight
+//存储已分配的Vulkan命令缓冲
 static std::vector<std::vector<VkCommandBuffer>> s_AllocatedCommandBuffers;
+//存储资源释放函数的队列
 static std::vector<std::vector<std::function<void()>>> s_ResourceFreeQueue;
 
 // Unlike g_MainWindowData.FrameIndex, this is not the the swapchain image index
@@ -284,7 +286,7 @@ static void CleanupVulkanWindow()
 {
 	ImGui_ImplVulkanH_DestroyWindow(g_Instance, g_Device, &g_MainWindowData, g_Allocator);
 }
-
+//在每个渲染帧中执行渲染操作
 static void FrameRender(ImGui_ImplVulkanH_Window* wd, ImDrawData* draw_data)
 {
 	VkResult err;
@@ -398,7 +400,7 @@ static void glfw_error_callback(int error, const char* description)
 }
 
 namespace Walnut {
-
+//嵌入式文件
 #include "Walnut/Embed/Walnut-Icon.embed"
 #include "Walnut/Embed/WindowImages.embed"
 
@@ -416,7 +418,7 @@ namespace Walnut {
 
 		s_Instance = nullptr;
 	}
-
+	//单例
 	Application& Application::Get()
 	{
 		return *s_Instance;
@@ -601,7 +603,7 @@ namespace Walnut {
 		// Load images
 		{
 			uint32_t w, h;
-			void* data = Image::Decode(g_WalnutIcon, sizeof(g_WalnutIcon), w, h);
+			void* data = Image::Decode(g_icon, sizeof(g_icon), w, h);
 			m_AppHeaderIcon = std::make_shared<Walnut::Image>(w, h, ImageFormat::RGBA, data);
 			free(data);
 		}

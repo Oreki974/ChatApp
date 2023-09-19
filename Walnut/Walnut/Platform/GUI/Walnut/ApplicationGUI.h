@@ -42,6 +42,7 @@ namespace Walnut {
 	class Application
 	{
 	public:
+		//默认参数值为ApplicationSpecification()
 		Application(const ApplicationSpecification& applicationSpecification = ApplicationSpecification());
 		~Application();
 

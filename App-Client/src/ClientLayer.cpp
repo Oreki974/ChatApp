@@ -63,7 +63,7 @@ void ClientLayer::UI_ConnectionModal()
 	{
 		ImGui::OpenPopup("Connect to server");
 	}
-
+	//µÇÂ¼UI
 	m_ConnectionModalOpen = ImGui::BeginPopupModal("Connect to server", nullptr, ImGuiWindowFlags_AlwaysAutoResize);
 	if (m_ConnectionModalOpen)
 	{

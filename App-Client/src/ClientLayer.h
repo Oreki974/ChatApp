@@ -32,6 +32,7 @@ private:
 	void SendChatMessage(std::string_view message);
 
 private:
+	//ÀúÊ·¼ÇÂ¼
 	void SaveConnectionDetails(const std::filesystem::path& filepath);
 	bool LoadConnectionDetails(const std::filesystem::path& filepath);
 private:

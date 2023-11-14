@@ -55,7 +55,7 @@ void ClientLayer::OnDisconnectButton()
 {
 	m_Client->Disconnect();
 }
-
+//登录模块
 void ClientLayer::UI_ConnectionModal()
 {
 	//是否需要打开连接模态对话框
@@ -136,6 +136,7 @@ void ClientLayer::UI_ConnectionModal()
 //用户列表
 void ClientLayer::UI_ClientList()
 {
+	//ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(0.0f, 1.0f, 1.0f, 1.0f));
 	ImGui::Begin("Users Online");
 	ImGui::Text("Online: %d", m_ConnectedClients.size());
 
@@ -149,6 +150,7 @@ void ClientLayer::UI_ClientList()
 		ImGui::Selectable(username.c_str(), &selected);
 		ImGui::PopStyleColor();
 	}
+	//ImGui::PopStyleColor();
 	ImGui::End();
 }
 
